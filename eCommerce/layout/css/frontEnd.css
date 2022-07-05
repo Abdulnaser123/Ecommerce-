@@ -1,0 +1,229 @@
+
+
+
+h1 {
+  font-size: large; 
+}
+
+
+.asterix {
+    font-size: 40px;
+    position: absolute;
+   
+    right: 400px;
+   
+    color: rgb(248, 0, 0);
+    margin-top: -45px;
+
+        
+}
+.show {
+    font-size: 40px;
+    position: absolute;
+   
+    right: 460px;
+   
+    color: rgb(55, 155, 55);
+    margin-top: -35px;
+    
+}
+.main tr:first-child  {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+table tr  {
+    background-color: rgb(247, 238, 238);
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+table tr td {
+    vertical-align: middle;
+}
+table .btn {
+    padding: 3px 10px;
+}
+table {
+    box-shadow: 0 5px 12px rgb(141, 136, 136);
+    margin-top: 30px;;
+}
+tr td .activate{
+    margin-left: 5px;
+}
+.price{
+        font-size: 25px;
+      
+        background: #41464b;
+        color: white;
+        font-weight: bold;
+        margin-left: 10px;
+        padding:2px;
+        padding-left: 10px;
+        padding-right: 10px;
+     
+        height: 40px;
+}
+.before-price{
+    background-color: rgb(0, 195, 255);
+    height: 37px;
+    width: 10px;
+    position: absolute;
+  
+   
+}
+.item-place{
+    border: 2px solid black;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 400px;
+  }
+  div a span {
+    text-align: right; 
+    display: block;
+  }
+
+  
+/* 
+start categories feild
+*/
+
+
+/* 
+start login feild
+*/
+.login-page form {
+    max-width: 400px;
+    margin: auto;
+
+}
+.login-page input {
+    margin-bottom: 10px;
+    
+}
+.login-page [data-class="login"].selected {
+    color: #e62435;
+}
+.login-page [data-class="signup"].selected {
+    color: #9020a7;
+}
+
+
+
+.login-page span{
+    cursor: pointer;
+}
+.login-page .signup{
+    display: none;
+    
+}
+
+.error-paragraph{
+ background-color: red;
+ display: inline-block;
+ position: static;
+ text-align: center;
+ height: 3px;
+ width: 140px;
+}
+.error-paragraph1{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.information ul{
+    padding: 0;
+    margin: 0;
+}
+.information ul li {
+    padding: 10px;
+}
+.information ul li:nth-child(odd){
+    background-color: rgb(219, 207, 207);
+}
+.information ul li span{
+    display: inline-block;
+    width: 120px;
+}
+.thumbnil .date {
+    text-align: right;
+    font-size: 13px;
+    color: #aaa;
+
+}
+
+/* start show item page */
+.item-info ul li {
+    padding: 10px;
+}
+.item-info h2 {
+    padding: 10px;
+    margin: 0 ;
+    font-size: 18px;
+}
+.item-info ul li:nth-child(odd) {
+    background-color: rgb(221, 213, 213);
+}
+/* end show item page */
+
+.comment h3{
+    margin: 0 0 10px;
+}
+
+.comment textarea{
+display: block;
+margin-bottom: 20px;
+width: 400px;
+height: 100px;
+
+}
+
+.comment-box {
+    margin-bottom: 20px;
+
+}
+.comment-box img {
+    border: #1335a5 solid 1px;
+}
+
+.comment-box .lead {
+   background-color: hsl(249, 62%, 85%);
+   position: relative;
+   padding: 10px;     
+}
+price
+.comment-box .lead:before {
+content: "";
+width: 0;
+height: 0;
+border-width: 15px;
+border-style: solid;
+border-color:  transparent  hsl(249, 62%, 85%)  transparent transparent; 
+position: absolute;
+left: -30px;
+top: 10px;   
+}
+.approval {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    color: white;
+    background-color: rgb(150, 29, 29);
+    font-weight: bold;
+    padding: 3px 4px;
+    margin-left: 14px;
+  
+}
+
+.upper-bar .my-info img{
+    width: 40px;
+
+} 
+
+.upper-bar-info{
+    font-weight: bolder;
+}

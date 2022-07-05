@@ -1,0 +1,320 @@
+/*start login form*/
+
+/* start log-in style */
+.login {
+    width: 300px;
+    margin: 100px auto;
+
+}
+.login input {
+    margin-bottom: 10px;
+}
+
+.login .form-control {
+    background-color : #eAEAEA;
+}
+.login .btn {
+    background-color:  #178839c9;
+    width: 300px;
+
+}
+.login h4 {
+    color: rgb(129, 122, 122);
+text-align: center;
+}
+
+/* end log-in style */
+
+/* start navbar style */
+/* .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 30px;
+}
+.navbar-brand {
+    font-size: 16px;
+}
+
+.navbar-dark .navbar-toggler {
+    color: #d41c1c;
+    background-color: #969ea9;
+    border-color: rgba(255,255,255,.1);
+} */
+
+
+/* end navbar style */
+/*
+  ** start dashboard design 
+  **
+*/
+.home .start a {
+    color: #fff;
+    text-decoration: none;
+
+}
+.home .start  {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+   
+}
+.home .start1 {
+    background-color: #3498db;
+
+}
+.home .start2 {
+    background-color: #e67e22;
+
+}
+.home .start3  {
+    background-color: #7f8c8d;
+
+}
+.home .start4 {
+    background-color: #1abc9c;
+
+}
+
+.home span {
+    display: block;
+    font-size: 42px;
+}
+
+.panel{
+    margin-top: 40px;
+}
+.panel  div {
+ 
+    background-color: #eee;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    padding: 9px;
+
+
+}
+
+
+
+
+
+
+/*
+  ** end dashboard design 
+  **
+*/
+.form-control {
+    position: relative;
+}
+
+
+
+
+h1 {
+    font-size: 65px;
+    color: rgb(56, 47, 47);
+}
+
+
+.asterix {
+    font-size: 40px;
+    position: absolute;
+   
+    right: 400px;
+   
+    color: rgb(248, 0, 0);
+    margin-top: -45px;
+
+        
+}
+.show {
+    font-size: 40px;
+    position: absolute;
+   
+    right: 460px;
+   
+    color: rgb(55, 155, 55);
+    margin-top: -35px;
+    
+}
+.main tr:first-child  {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+table tr  {
+    background-color: rgb(247, 238, 238);
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+table tr td {
+    vertical-align: middle;
+}
+table .btn {
+    padding: 3px 10px;
+}
+table {
+    box-shadow: 0 5px 12px rgb(141, 136, 136);
+    margin-top: 30px;;
+}
+tr td .activate{
+    margin-left: 5px;
+}
+
+.latest-users li {
+    overflow: hidden;
+padding: 10px;
+
+}
+
+.latest-users li:nth-child(odd){
+    background-color: #ccc;
+    
+}
+
+
+.latest-users .btn-success  {
+    
+    padding: 1px 8px;
+}
+.latest-users   a  {
+    
+    text-decoration: none;
+    color: #fff;
+}
+
+/* start category page */
+
+
+.categories .cats .visibility {
+   background-color: #fc5c65 ;
+   color: #fff;
+   padding: 5px 10px ;
+   margin-right: 10px;
+   border-radius: 6px;
+}
+.categories .cats .comment {
+    background-color: #4b7bec ;
+    color: #fff;
+    padding: 5px 10px ;
+    margin-right: 10px;
+    border-radius: 6px;
+ }
+ .categories .cats .ads {
+    background-color: #4b4b4b ;
+    color: #fff;
+    padding: 5px 10px ;
+    margin-right: 10px;
+    border-radius: 6px;
+ }
+ .categories .btn-hidden  {
+     position: relative;
+     display: inline;
+     left: 60%;
+  border-style: none;
+ margin-left: 4px;
+ 
+ }
+ .categories .btn-hidden .btn {
+ margin-left: 10px;
+ height: 30px;
+ width: 60px;
+ 
+   }
+   .categories .btn-hidden i {
+    display: flex;
+
+    justify-content: center;
+  
+    align-items: center;       
+      }
+       .container .panel .ordering {
+          color: #000000;
+          margin-top: -9px;
+          margin-right: 100px;
+          border-style: none;
+      }
+      .container .panel .ordering a {
+        color: #888;
+        text-decoration: none;
+       
+    }
+
+    .container .panel .ordering .active {
+      
+        color: red;
+        font-weight: bold;
+       
+    }
+    .container .panel{
+        padding: 0px;
+    }
+
+
+     div .btn-add-member {
+        margin-top: 20px;
+        margin-bottom: 25px;
+
+    }
+    /* full view function */
+    .categories .cats h3 {
+        margin: 0px -160px 0px;
+        cursor: pointer ;
+        margin-bottom: 20px ;
+        font-weight: bold;
+        color: #6a6a6a;
+    }
+
+    .categories .cats .full-view {
+      margin: -8px 0px ;
+      border-style: none;
+      
+    }
+    .categories .cats .full-view p {
+      
+        color: rgb(0, 0, 0);
+        
+      }
+    
+    .categories .panel-heading {
+padding: 30px;
+font-weight: bold;       
+      } 
+      
+      .panel .btn-info { 
+          margin-right: 10px;
+          height: 28px;
+          width:auto;
+          display: flex;
+
+          justify-content: center;
+        
+          align-items: center;    
+
+      } 
+
+      .container .start .fa {
+          float: left;
+          font-size: 70px;
+      } 
+      .container a  .info {
+        margin-left: 100px;
+      
+    } 
+    .latest .toggleee {
+        color: #999 ;
+    }
+    
+    .latest .toggleee:hover {
+        color: #444 ;
+        cursor: pointer;
+    }
